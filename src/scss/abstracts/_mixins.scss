@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as *;
+// Mixins
+
+@mixin list-reset {
+  list-style: none;
+  padding: 0;
+}
+@mixin btn-reset {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  cursor: pointer;
+}
+@mixin flex($dir: row, $just: space-between, $align: center) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $just;
+  align-items: $align;
+}
