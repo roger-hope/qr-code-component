@@ -1,0 +1,18 @@
+.image {
+  &-container {
+    width: 288px;
+    height: 288px;
+    left: 576px;
+    top: 168px;
+    margin-bottom: 24px;
+
+    img {
+      width: 100%;
+      height: 100%;
+
+      /* Blue */
+      background: #2c7dfa;
+      border-radius: 10px;
+    }
+  }
+}
