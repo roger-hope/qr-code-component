@@ -1,0 +1,21 @@
+.component {
+  &-title {
+    /* Improve your front-e */
+    height: 56px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 56px / 2 - 36.5px);
+    margin-bottom: 16px;
+
+    /* Heading */
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    /* Dark Navy */
+    color: #1f314f;
+  }
+}
