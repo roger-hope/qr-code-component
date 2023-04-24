@@ -1,2 +1,7 @@
 // Link all the layout/files
-@use './layout/navigations';
+@use "./layout/navigations";
+@use "./layout/container";
+@use "./utils/theme";
+@use "./components/title";
+@use "./components/paragraph";
+@use "./components/image";
