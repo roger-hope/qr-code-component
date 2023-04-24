@@ -1,0 +1,22 @@
+.component {
+  &-paragraph {
+    /* Scan the QR code to */
+    height: 57px;
+    left: 5.56%;
+    right: 5.56%;
+    top: calc(50% - 57px / 2 + 36px);
+    margin: 0 16px;
+
+    /* Body */
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+
+    /* Grey */
+    color: #7d889e;
+  }
+}
