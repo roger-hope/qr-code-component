@@ -1,12 +1,13 @@
 module.exports = {
-  root: './',
+  root: "./",
+  base: "",
   build: {
-    outDir: 'dist',
+    outDir: "dist",
   },
-  publicDir: 'assets',
+  publicDir: "assets",
   server: {
     fs: {
-      allow: ['..'],
+      allow: [".."],
     },
   },
 };
